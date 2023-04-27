@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiggy-clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="./index.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container">
+        <div class="left-nav">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAACSCAMAAACZpWO8AAAAZlBMVEX////zgCj5+fnzexjzfR7ydgD3sYzycQDzfyTycwD98On5wqXzehP1nGT++vf09PT0llr+9fH6zLT1nmn84NL72MX4uZf0i0L85dnybQD728v1klL2oXD2pXb5xqrzhjf3roT60rzEJLHNAAAD/UlEQVR4nO2c646qMBCAYdtKuciKIqAo4vu/5AF3z5FLwZlpQXPS78dmk02aL22Zzkybdb6/Poxv58v5ML6sEgCrBMEqQbBKEKwSBKsEwSpBsEoQrBIEqwTBKkGwShCsEgSrBMEqQbBKEKwSBFNKwbHKGvbnRHsoA0rJOctPni+iBuGfvG1VvFcpycpIcLcDE+7uHr9NqahPkXSHSO5HFXkFtZTiUEYjn1+rKD++QanIxXiGnlLelTZRGkp7zqeFWqIbaZ/TlTJ/Zop+4IyyeGSlWrwSahdP3NdT2kCM2m/vvJZS6IOM2k0erKOUTn37Y3iJ/e5ISokiPE4SXdZQquGT1OClyysdZ4wU0yeRS0dRKtmkEHcVfxP7pZXOp+kpKpz9ODpIubTSZfIc4YfYCRThIUIFTLxSodovv0rbRkkRQ9l1WaVqOm5PKUmJiZd4pXL6/J9Scn3M8YtXmtzcM0qolUMrpTOn26SSvC2pNLOVZpRcRLREK20m4+SMkssQhwpa6UpQkiJHfHJ4pZmE+6HkPcOWlJwzFgk3XDQIvFJKDtL3fhDyVh7q7I5M4owrOXFQFEWaps3PIEgIVS9aqX6xl/TBf3EzyRLfvUVJkXx0nDZV2KHaHwt8xYtWKmZrExb1YEy6ebb09p4741RIKXi4sNINUZ38WglUHY5XwpUnD1i9rNIZVnp3aRPgJZUK/Motneg6hxdtJYXSZmGlEL1yEaqQIyglyDDQKKEiE6naRa7c8qXl/JmimiTUViIpBTnumxO41skKzZw1OidNMotRwoUAamPwipmmE7L7TVOaaVWM4CVycGJHF9T1/gHd+qb2vXNobJIlNvmlKhVcsDEKT4HL3zSUnLjajLmMtphk6JENXzeXQyf8JJlW2g2WTuYrVChj4gdqJR/XXzagFNzDzWVbluXuUlfBWInnhEF1lIKyrdsYb2l/CUZK614RNtz795ZtadRXYgfKsFoLx/tK6UBJ4rJJI0r9i8KRUpSRRtVSSnphaKiEPm9NKDn77jSJoq/k4a91DSg5OZtUIi6bttK5MytR2M3KpUttf+lG76yTOIlSdiaJuGz6SvGtu6Gfux1ZKJlUclJlO5V0kphSUr+rkMhbb7NKqpzXIyQAJpVSOczboq3OeCZSuGzQ5JU3rWeDJpTibW+LS/HmF4MtQe8NiqCGbZNKzr0bMGvNwQyVA88mAct171FMVSh/IwG/kdK2LqaUUvbYTtInH23/MFbH3R89J+QjHCXmSstLs50E/bB9Yk4pLjn6jZkSgwV44hOT7QEmewJn7Y/twX/8UN8gVgmCVYJglSBYJQhWCYJVgmCVIFglCFYJglWCYJUgWCUIH6n0ef9C8w/QQy9QRSQZVAAAAABJRU5ErkJggg=="
+                class="logo" alt="">
+            <div class="address">
+                <a href="#" class="otherlink">Other</a>
+                <span>Banglore, Karnatka</span>
+                <span class="material-icons" style="color:#FC8018">expand_more</span>
+            </div>
+        </div>
+        <div class="right-nav">
+            <a href="#">
+                <span class="material-icons">search</span>
+                <span>Search</span>
+            </a>
+            <a href="#">
+                <span class="material-icons">help</span>
+                <span>Help</span>
+            </a>
+            <a href="#">
+                <span class="material-icons">info</span>
+                <span>Info</span>
+            </a>
+            <a href="#">
+                <span class="material-icons">search</span>
+                <span>Search</span>
+            </a>
+
+            <a href="#">
+                <span class="material-icons">support</span>
+                <span>Support</span>
+            </a>
+
+        </div>
+    </nav>
+
+
+    <main class="main">
+        <div class="second">
+            <h2>1473 Restaurents</h2>
+            <div class="links">
+                <a href="#">Relevence</a>
+                <a href="#">Delivery Time</a>
+                <a href="#">Rating</a>
+                <a href="#">Cost:High to low</a>
+                <a href="#">Cost:Low to High</a>
+            </div>
+        </div>
+
+        <!-- CARDS -->
+        <div class="cards">
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating" style="background-color:green">
+                        <span class="material-icons">star</span>
+                        <span>4.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating" style="background-color: red;">
+                        <span class="material-icons">star</span>
+                        <span>2.0</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+            <div class="card">
+                <img src="./pizza.jpg">
+                <h3>Pizza Hut</h3>
+                <p class="about">Neapolitan Pizza.
+                    Chicago Pizza.
+                    New York-Style Pizza.
+                    Sicilian Pizza.</p>
+                <ul class="rating-container">
+                    <li class="rating">
+                        <span class="material-icons">star</span>
+                        <span>3.4</span>
+                    </li>
+                    <li>44 MIN</li>
+                    <li>200 for Two</li>
+                </ul>
+                <p class="offer">
+                    <span class="material-icons">sell</span>
+                    <span>50% off Use | Welcome50</span>
+                </p>
+                <button>Quick view</button>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footeritems">
+            <h4>COMPANY</h4>
+            <a href="#">About us</a>
+            <a href="#">Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Swiggy Blogs</a>
+            <a href="#">Bug Bounty</a>
+            <a href="#">Swiggy super</a>
+            <a href="#">Swiggy corporate</a>
+            <a href="#">Swiggy Instamart</a>
+        </div>
+
+        <div class="footeritems">
+            <h4>CONTACT</h4>
+            <a href="#">About us</a>
+            <a href="#">Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Swiggy Blogs</a>
+        </div>
+
+        <div class="footeritems">
+            <h4>LEGAL</h4>
+            <a href="#">About us</a>
+            <a href="#">Team</a>
+            <a href="#">Careers</a>
+            <a href="#">Swiggy Blogs</a>
+            <a href="#">Bug Bounty</a>
+            <a href="#">Swiggy super</a>
+            <a href="#">Swiggy corporate</a>
+            <a href="#">Swiggy Instamart</a>
+        </div>
+
+        <div class="footer-img">
+            <img src="./playstore.jpg" class="img">
+            <img src="./appstore.png" class="img">
+        </div>
+
+    </footer>
+</body>
+
+</html>
